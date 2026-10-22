@@ -1,0 +1,23 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  color: #e9ebf1;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: radial-gradient(circle at 50% 35%, #2b2410 0%, #0d0e12 70%); /* opaque : couvre le jeu */
+}
+
+main { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; }
+.kicker { font-size: 16px; letter-spacing: 4px; text-transform: uppercase; color: #8d93a3; }
+h1 { font-size: 110px; font-weight: 900; letter-spacing: 10px; color: #ffd23f; text-shadow: 0 6px 40px rgba(255, 210, 63, .35); }
+.welcome { font-size: 22px; color: #a8adbb; }
+#player { color: #fff; font-weight: 600; }
+.bar { width: 460px; height: 6px; border-radius: 3px; background: rgba(255,255,255,.08); overflow: hidden; }
+.fill { width: 30%; height: 100%; background: linear-gradient(90deg, #3fa7ff, #ff8a3d); animation: slide 1.3s ease-in-out infinite; }
+@keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(340%); } }
+#status { font-size: 16px; color: #8d93a3; }
+.rules { list-style: none; display: grid; grid-template-columns: repeat(2, 260px); gap: 10px; margin-top: 18px; }
+.rules li { padding: 12px 14px; border-radius: 10px; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.06); font-size: 14px; color: #c9cdd8; }
+.rules b { color: #fff; }
+.tip { position: absolute; bottom: 44px; font-size: 17px; color: #c9cdd8; }

@@ -1,0 +1,278 @@
+
+2026-10-22 18:16:45.511 [INFO] [logger] server axora 1.0 - pid 31468
+2026-10-22 18:16:45.603 [INFO] [server] Server of veyvy (account checked)
+2026-10-22 18:16:45.604 [INFO] [server] "Axora Gunfight" - GTA IV (Grand Theft Auto IV) - Mode gunfight - UDP port 49155 - 32 slots - protocol v16
+2026-10-22 18:16:45.616 [INFO] [server] game mode: gunfight
+2026-10-22 18:16:45.617 [INFO] [lua] [gunfight] 4 arene(s), 10 loadouts
+2026-10-22 18:16:45.617 [INFO] [resources] [gunfight] started (v1.0)
+2026-10-22 18:16:45.619 [INFO] [resources] [gunfight_loading] started (v1.0)
+2026-10-22 18:16:45.619 [INFO] [resources] 2/2 resource(s) started: gunfight, gunfight_loading
+2026-10-22 18:16:45.625 [INFO] [ui] Players get 6 file(s), 34 KB, 2 page(s), 1 client script(s)
+2026-10-22 18:16:45.625 [INFO] [server] Type 'help' for the console commands
+2026-10-22 18:16:45.655 [INFO] [api] Listed on the server list
+2026-10-22 18:16:52.100 [INFO] [server] join veyvy (id 0, account 1, 192.168.1.254)
+2026-10-22 18:16:55.626 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:16:57.690 [INFO] [server] refused 192.168.1.254: account veyvy already connected (id 0)
+2026-10-22 18:17:05.647 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:17:05.833 [INFO] [server] refused 192.168.1.254: account veyvy already connected (id 0)
+2026-10-22 18:17:07.495 [INFO] [server] leave veyvy (id 0)
+2026-10-22 18:17:13.700 [INFO] [server] join veyvy (id 0, account 1, 192.168.1.254)
+2026-10-22 18:17:15.684 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:17:25.707 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:17:35.710 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:17:45.739 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:17:55.789 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:17:56.892 [DEBUG] [sync] first state of veyvy: -110.0 830.0 16.0
+2026-10-22 18:17:56.892 [ERROR] [script] [gunfight] player_spawn: server/main.lua:230: attempt to call a nil value (method 'remove_weapons')
+stack traceback:
+	server/main.lua:230: in function <server/main.lua:223>
+2026-10-22 18:18:05.843 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:18:07.039 [INFO] [server] veyvy (id 0) > train
+2026-10-22 18:18:07.039 [INFO] [sync] veyvy (id 0) moves to bucket 500
+2026-10-22 18:18:07.040 [ERROR] [script] [gunfight] /train: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:109: attempt to call a nil value (method 'remove_weapons')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:109: in function 'server.training.start'
+	server/main.lua:127: in upvalue 'start_training'
+	server/main.lua:309: in function <server/main.lua:304>
+2026-10-22 18:18:15.887 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:18:17.026 [ERROR] [script] [gunfight] tick: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: attempt to call a nil value (method 'give_weapon')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: in function 'server.training.arm'
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:207: in function 'server.training.tick'
+	server/main.lua:244: in function <server/main.lua:234>
+2026-10-22 18:18:25.931 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:18:26.416 [INFO] [server] veyvy (id 0) > gf
+2026-10-22 18:18:27.028 [ERROR] [script] [gunfight] tick: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: attempt to call a nil value (method 'give_weapon')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: in function 'server.training.arm'
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:207: in function 'server.training.tick'
+	server/main.lua:244: in function <server/main.lua:234>
+2026-10-22 18:18:35.130 [ERROR] [script] [gunfight] ui train: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:229: attempt to call a nil value (method 'remove_weapons')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:229: in function 'server.training.close'
+	server/main.lua:36: in upvalue 'stop_training'
+	server/main.lua:121: in upvalue 'start_training'
+	server/main.lua:161: in function <server/main.lua:159>
+2026-10-22 18:18:35.938 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:18:37.465 [ERROR] [script] [gunfight] ui train: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:109: attempt to call a nil value (method 'remove_weapons')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:109: in function 'server.training.start'
+	server/main.lua:127: in upvalue 'start_training'
+	server/main.lua:161: in function <server/main.lua:159>
+2026-10-22 18:18:45.939 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:18:47.416 [ERROR] [script] [gunfight] tick: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: attempt to call a nil value (method 'give_weapon')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: in function 'server.training.arm'
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:207: in function 'server.training.tick'
+	server/main.lua:244: in function <server/main.lua:234>
+2026-10-22 18:18:55.949 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:18:57.433 [ERROR] [script] [gunfight] tick: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: attempt to call a nil value (method 'give_weapon')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: in function 'server.training.arm'
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:207: in function 'server.training.tick'
+	server/main.lua:244: in function <server/main.lua:234>
+2026-10-22 18:19:05.990 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:19:07.460 [ERROR] [script] [gunfight] tick: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: attempt to call a nil value (method 'give_weapon')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:60: in function 'server.training.arm'
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:207: in function 'server.training.tick'
+	server/main.lua:244: in function <server/main.lua:234>
+2026-10-22 18:19:08.231 [INFO] [server] veyvy (id 0) > train 0 
+2026-10-22 18:19:08.232 [ERROR] [script] [gunfight] /train: ...ght IV/resources/[gunfight]/gunfight/server\training.lua:229: attempt to call a nil value (method 'remove_weapons')
+stack traceback:
+	...ght IV/resources/[gunfight]/gunfight/server\training.lua:229: in function 'server.training.close'
+	server/main.lua:36: in upvalue 'stop_training'
+	server/main.lua:121: in upvalue 'start_training'
+	server/main.lua:309: in function <server/main.lua:304>
+2026-10-22 18:19:15.991 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:19:17.540 [INFO] [server] veyvy (id 0) > stats
+2026-10-22 18:19:26.029 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:19:36.052 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:19:46.069 [ERROR] [script] [gunfight] timer: server/main.lua:282: attempt to perform arithmetic on a nil value (local 'now')
+stack traceback:
+	server/main.lua:282: in function <server/main.lua:277>
+2026-10-22 18:19:48.213 [INFO] [server] leave veyvy (id 0)
+
+2026-10-22 22:02:15.730 [INFO] [logger] server axora 1.0 - pid 2908
+2026-10-22 22:02:15.824 [INFO] [server] Server of veyvy (account checked)
+2026-10-22 22:02:15.825 [INFO] [server] "Axora Gunfight" - GTA IV (Grand Theft Auto IV) - Mode gunfight - UDP port 49155 - 32 slots - protocol v19
+2026-10-22 22:02:15.885 [INFO] [server] game mode: gunfight
+2026-10-22 22:02:15.886 [INFO] [lua] [gunfight] 4 arene(s), 10 loadouts
+2026-10-22 22:02:15.887 [INFO] [resources] [gunfight] started (v1.0)
+2026-10-22 22:02:15.888 [INFO] [resources] [gunfight_loading] started (v1.0)
+2026-10-22 22:02:15.888 [INFO] [resources] 2/2 resource(s) started: gunfight, gunfight_loading
+2026-10-22 22:02:15.959 [INFO] [ui] Players get 6 file(s), 34 KB, 2 page(s), 1 client script(s)
+2026-10-22 22:02:15.959 [INFO] [server] Type 'help' for the console commands
+2026-10-22 22:02:16.007 [INFO] [api] Listed on the server list
+2026-10-22 22:02:30.090 [INFO] [server] join veyvy (id 0, account 1, 192.168.1.254)
+2026-10-22 22:03:10.698 [DEBUG] [sync] first state of veyvy: -110.0 830.0 16.0
+2026-10-22 22:04:24.478 [INFO] [server] veyvy (id 0) > gf
+2026-10-22 22:04:29.112 [INFO] [sync] veyvy (id 0) moves to bucket 500
+2026-10-22 22:04:29.114 [DEBUG] [entities] ped 1 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:04:29.115 [DEBUG] [entities] ped 2 created by gunfight (model 0xC41C88BE)
+2026-10-22 22:04:29.115 [DEBUG] [entities] ped 3 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:04:29.115 [DEBUG] [entities] ped 4 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:04:29.116 [DEBUG] [entities] ped 5 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:04:29.116 [DEBUG] [entities] ped 6 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:06:10.764 [INFO] [server] leave veyvy (id 0)
+2026-10-22 22:06:10.764 [INFO] [sync] veyvy (id 0) moves to bucket 0
+2026-10-22 22:12:20.745 [INFO] [server] stopping
+2026-10-22 22:12:20.748 [INFO] [ui] Players get 0 file(s), 0 KB, 0 page(s), 0 client script(s)
+2026-10-22 22:12:20.748 [INFO] [message] The server is shutting down
+
+2026-10-22 22:12:42.004 [INFO] [logger] server axora 1.0 - pid 8624
+2026-10-22 22:12:42.095 [INFO] [server] Server of veyvy (account checked)
+2026-10-22 22:12:42.096 [INFO] [server] "Axora Gunfight" - GTA IV (Grand Theft Auto IV) - Mode gunfight - UDP port 49155 - 32 slots - protocol v19
+2026-10-22 22:12:42.110 [INFO] [server] game mode: gunfight
+2026-10-22 22:12:42.111 [INFO] [lua] [gunfight] 4 arene(s), 10 loadouts
+2026-10-22 22:12:42.112 [INFO] [resources] [gunfight] started (v1.0)
+2026-10-22 22:12:42.113 [INFO] [resources] [gunfight_loading] started (v1.0)
+2026-10-22 22:12:42.113 [INFO] [resources] 2/2 resource(s) started: gunfight, gunfight_loading
+2026-10-22 22:12:42.119 [INFO] [ui] Players get 6 file(s), 34 KB, 2 page(s), 1 client script(s)
+2026-10-22 22:12:42.120 [INFO] [server] Type 'help' for the console commands
+2026-10-22 22:12:42.148 [INFO] [api] Listed on the server list
+2026-10-22 22:13:00.492 [INFO] [server] join veyvy (id 0, account 1, 192.168.1.254)
+2026-10-22 22:13:51.893 [DEBUG] [sync] first state of veyvy: -110.0 830.0 16.0
+2026-10-22 22:14:11.135 [INFO] [server] veyvy (id 0) > gf
+2026-10-22 22:14:20.263 [INFO] [sync] veyvy (id 0) moves to bucket 500
+2026-10-22 22:14:20.264 [DEBUG] [entities] ped 1 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:14:20.264 [DEBUG] [entities] ped 2 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:14:20.264 [DEBUG] [entities] ped 3 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:14:20.264 [DEBUG] [entities] ped 4 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:14:20.264 [DEBUG] [entities] ped 5 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:14:20.265 [DEBUG] [entities] ped 6 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:14:43.898 [INFO] [server] veyvy (id 0) > train 0
+2026-10-22 22:14:43.899 [INFO] [sync] veyvy (id 0) moves to bucket 0
+2026-10-22 22:14:43.899 [INFO] [sync] veyvy (id 0) moves to bucket 500
+2026-10-22 22:14:43.900 [DEBUG] [entities] ped 7 created by gunfight (model 0xC41C88BE)
+2026-10-22 22:14:43.900 [DEBUG] [entities] ped 8 created by gunfight (model 0xC41C88BE)
+2026-10-22 22:14:43.900 [DEBUG] [entities] ped 9 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:14:43.900 [DEBUG] [entities] ped 10 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:14:43.900 [DEBUG] [entities] ped 11 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:14:43.901 [DEBUG] [entities] ped 12 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:20:04.683 [INFO] [server] veyvy (id 0) > gf
+2026-10-22 22:20:16.033 [INFO] [sync] veyvy (id 0) moves to bucket 0
+2026-10-22 22:20:16.033 [INFO] [sync] veyvy (id 0) moves to bucket 500
+2026-10-22 22:20:16.034 [DEBUG] [entities] ped 13 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:20:16.034 [DEBUG] [entities] ped 14 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:20:16.034 [DEBUG] [entities] ped 15 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:20:16.034 [DEBUG] [entities] ped 16 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:20:16.034 [DEBUG] [entities] ped 17 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:20:16.035 [DEBUG] [entities] ped 18 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:21:13.975 [DEBUG] [entities] vehicle refused for veyvy: bucket 500 is in lockdown
+2026-10-22 22:21:51.902 [INFO] [server] veyvy (id 0) > stop
+2026-10-22 22:22:02.239 [INFO] [server] veyvy (id 0) > stop gunfight
+2026-10-22 22:22:18.576 [INFO] [server] leave veyvy (id 0)
+2026-10-22 22:22:18.578 [INFO] [sync] veyvy (id 0) moves to bucket 0
+
+2026-10-22 22:45:21.292 [INFO] [logger] server axora 1.0 - pid 32420
+2026-10-22 22:45:21.379 [INFO] [server] Server of veyvy (account checked)
+2026-10-22 22:45:21.379 [INFO] [server] "Axora Gunfight" - GTA IV (Grand Theft Auto IV) - Mode gunfight - UDP port 49155 - 32 slots - protocol v19
+2026-10-22 22:45:21.392 [INFO] [server] game mode: gunfight
+2026-10-22 22:45:21.393 [INFO] [lua] [gunfight] 4 arene(s), 10 loadouts
+2026-10-22 22:45:21.394 [INFO] [resources] [gunfight] started (v1.0)
+2026-10-22 22:45:21.395 [INFO] [resources] [gunfight_loading] started (v1.0)
+2026-10-22 22:45:21.395 [INFO] [resources] 2/2 resource(s) started: gunfight, gunfight_loading
+2026-10-22 22:45:21.400 [INFO] [ui] Players get 6 file(s), 34 KB, 2 page(s), 1 client script(s)
+2026-10-22 22:45:21.401 [INFO] [server] Type 'help' for the console commands
+2026-10-22 22:45:21.427 [WARN] [api] NOT listed in the server browser: heartbeat too frequent
+
+2026-10-22 22:45:31.437 [INFO] [logger] server axora 1.0 - pid 29620
+2026-10-22 22:45:31.541 [INFO] [server] Server of veyvy (account checked)
+2026-10-22 22:45:31.542 [INFO] [server] "Axora Gunfight" - GTA IV (Grand Theft Auto IV) - Mode gunfight - UDP port 49155 - 32 slots - protocol v19
+2026-10-22 22:45:31.557 [INFO] [server] game mode: gunfight
+2026-10-22 22:45:31.557 [INFO] [lua] [gunfight] 4 arene(s), 10 loadouts
+2026-10-22 22:45:31.558 [INFO] [resources] [gunfight] started (v1.0)
+2026-10-22 22:45:31.560 [INFO] [resources] [gunfight_loading] started (v1.0)
+2026-10-22 22:45:31.560 [INFO] [resources] 2/2 resource(s) started: gunfight, gunfight_loading
+2026-10-22 22:45:31.566 [INFO] [ui] Players get 6 file(s), 34 KB, 2 page(s), 1 client script(s)
+2026-10-22 22:45:31.567 [INFO] [server] Type 'help' for the console commands
+2026-10-22 22:45:31.592 [INFO] [api] Listed on the server list
+
+2026-10-22 22:46:10.222 [INFO] [logger] server axora 1.0 - pid 19232
+2026-10-22 22:46:10.310 [INFO] [server] Server of veyvy (account checked)
+2026-10-22 22:46:10.310 [INFO] [server] "Axora Gunfight" - GTA IV (The Ballad of Gay Tony) - Mode gunfight - UDP port 49155 - 32 slots - protocol v19
+2026-10-22 22:46:10.323 [INFO] [server] game mode: gunfight
+2026-10-22 22:46:10.324 [INFO] [lua] [gunfight] 4 arene(s), 10 loadouts
+2026-10-22 22:46:10.325 [INFO] [resources] [gunfight] started (v1.0)
+2026-10-22 22:46:10.326 [INFO] [resources] [gunfight_loading] started (v1.0)
+2026-10-22 22:46:10.326 [INFO] [resources] 2/2 resource(s) started: gunfight, gunfight_loading
+2026-10-22 22:46:10.331 [INFO] [ui] Players get 6 file(s), 34 KB, 2 page(s), 1 client script(s)
+2026-10-22 22:46:10.332 [INFO] [server] Type 'help' for the console commands
+2026-10-22 22:46:10.358 [INFO] [api] Listed on the server list
+2026-10-22 22:46:22.184 [INFO] [server] join veyvy (id 0, account 1, 192.168.1.254)
+2026-10-22 22:47:10.619 [DEBUG] [sync] first state of veyvy: -110.0 830.0 16.0
+2026-10-22 22:47:36.037 [INFO] [server] leave veyvy (id 0)
+2026-10-22 22:47:37.903 [INFO] [server] join veyvy (id 0, account 1, 192.168.1.254)
+2026-10-22 22:48:16.957 [DEBUG] [sync] first state of veyvy: -110.0 830.0 16.0
+2026-10-22 22:48:44.748 [INFO] [server] leave veyvy (id 0)
+
+2026-10-22 22:50:57.176 [INFO] [logger] server axora 1.0 - pid 4440
+2026-10-22 22:50:57.261 [INFO] [server] Server of veyvy (account checked)
+2026-10-22 22:50:57.262 [INFO] [server] "Axora Gunfight" - GTA IV (The Ballad of Gay Tony) - Mode gunfight - UDP port 49155 - 32 slots - protocol v19
+2026-10-22 22:50:57.275 [INFO] [server] game mode: gunfight
+2026-10-22 22:50:57.276 [INFO] [lua] [gunfight] 4 arene(s), 10 loadouts
+2026-10-22 22:50:57.277 [INFO] [resources] [gunfight] started (v1.0)
+2026-10-22 22:50:57.278 [INFO] [resources] [gunfight_loading] started (v1.0)
+2026-10-22 22:50:57.278 [INFO] [resources] 2/2 resource(s) started: gunfight, gunfight_loading
+2026-10-22 22:50:57.284 [INFO] [ui] Players get 6 file(s), 34 KB, 2 page(s), 1 client script(s)
+2026-10-22 22:50:57.284 [INFO] [server] Type 'help' for the console commands
+2026-10-22 22:50:57.309 [INFO] [api] Listed on the server list
+
+2026-10-22 22:53:03.981 [INFO] [logger] server axora 1.0 - pid 22112
+2026-10-22 22:53:04.073 [INFO] [server] Server of veyvy (account checked)
+2026-10-22 22:53:04.073 [INFO] [server] "Axora Gunfight" - GTA IV (The Ballad of Gay Tony) - Mode gunfight - UDP port 49155 - 32 slots - protocol v19
+2026-10-22 22:53:04.086 [INFO] [server] game mode: gunfight
+2026-10-22 22:53:04.087 [INFO] [lua] [gunfight] 4 arene(s), 10 loadouts
+2026-10-22 22:53:04.088 [INFO] [resources] [gunfight] started (v1.0)
+2026-10-22 22:53:04.089 [INFO] [resources] [gunfight_loading] started (v1.0)
+2026-10-22 22:53:04.089 [INFO] [resources] 2/2 resource(s) started: gunfight, gunfight_loading
+2026-10-22 22:53:04.094 [INFO] [ui] Players get 6 file(s), 34 KB, 2 page(s), 1 client script(s)
+2026-10-22 22:53:04.094 [INFO] [server] Type 'help' for the console commands
+2026-10-22 22:53:04.123 [INFO] [api] Listed on the server list
+2026-10-22 22:53:18.097 [INFO] [server] join veyvy (id 0, account 1, 192.168.1.254)
+2026-10-22 22:54:00.522 [DEBUG] [sync] first state of veyvy: -110.0 830.0 16.0
+2026-10-22 22:54:46.458 [INFO] [server] veyvy (id 0) > gf
+2026-10-22 22:54:52.415 [INFO] [sync] veyvy (id 0) moves to bucket 500
+2026-10-22 22:54:52.417 [DEBUG] [entities] ped 1 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:54:52.418 [DEBUG] [entities] ped 2 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:54:52.418 [DEBUG] [entities] ped 3 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:54:52.419 [DEBUG] [entities] ped 4 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:54:52.419 [DEBUG] [entities] ped 5 created by gunfight (model 0xF5148AB2)
+2026-10-22 22:54:52.420 [DEBUG] [entities] ped 6 created by gunfight (model 0xC46CBC16)
+2026-10-22 22:55:54.435 [INFO] [server] leave veyvy (id 0)
+2026-10-22 22:55:54.435 [INFO] [sync] veyvy (id 0) moves to bucket 0

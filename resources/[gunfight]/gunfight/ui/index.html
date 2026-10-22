@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Gunfight</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/__axora.js"></script>
+</head>
+<body>
+  <div id="vignette"></div>
+
+  <section id="hud" hidden>
+    <div class="scoreline">
+      <div class="team left"><span class="name" id="name-a"></span><span class="score" id="score-a">0</span></div>
+      <div class="clock">
+        <span class="timer" id="timer">0:40</span>
+        <span class="round" id="round">Manche 1</span>
+      </div>
+      <div class="team right"><span class="score" id="score-b">0</span><span class="name" id="name-b"></span></div>
+    </div>
+    <div class="rosters">
+      <div class="roster" id="roster-a"></div>
+      <div class="loadout" id="loadout"></div>
+      <div class="roster right" id="roster-b"></div>
+    </div>
+    <div class="flag" id="flag" hidden>
+      <span id="flag-label">Drapeau</span>
+      <div class="bar"><div class="fill" id="flag-fill"></div></div>
+    </div>
+  </section>
+
+  <section id="training-hud" hidden>
+    <header><span class="tag">ENTRAINEMENT</span><span id="train-level"></span><span class="clock" id="train-clock"></span></header>
+    <div class="numbers">
+      <div><b id="train-kills">0</b><span>eliminations</span></div>
+      <div><b id="train-heads">0</b><span>headshots</span></div>
+      <div><b id="train-acc">0 %</b><span>precision</span></div>
+      <div><b id="train-best">0</b><span>record</span></div>
+    </div>
+    <p class="hint" id="train-hint">/gf pour changer de reglage · /train stop pour arreter</p>
+  </section>
+
+  <div id="feed"></div>
+  <div id="banner" hidden><h1 id="banner-title"></h1><p id="banner-sub"></p></div>
+  <div id="warning" hidden></div>
+  <div id="hitmarker"><i></i><i></i><i></i><i></i></div>
+
+  <section id="board" class="panel" hidden>
+    <h2>Tableau des scores</h2>
+    <table>
+      <thead><tr><th>Joueur</th><th>K</th><th>M</th><th>Degats</th><th>HS</th><th>Elo</th><th>Ping</th></tr></thead>
+      <tbody id="board-rows"></tbody>
+    </table>
+  </section>
+
+  <section id="results" class="panel" hidden>
+    <h1 id="results-title"></h1>
+    <p class="big" id="results-score"></p>
+    <p id="results-mvp"></p>
+    <table>
+      <thead><tr><th>Joueur</th><th>K</th><th>M</th><th>Degats</th><th>HS</th><th>Elo</th></tr></thead>
+      <tbody id="results-rows"></tbody>
+    </table>
+  </section>
+
+  <section id="lobby" class="panel wide" hidden>
+    <header>
+      <div>
+        <h1>GUNFIGHT</h1>
+        <p id="lobby-player"></p>
+      </div>
+      <button class="close" id="lobby-close" title="Fermer (Echap)">✕</button>
+    </header>
+    <nav id="tabs">
+      <button data-tab="play" class="active">Jouer</button>
+      <button data-tab="train">Entrainement</button>
+      <button data-tab="live">Matchs</button>
+      <button data-tab="me">Mes stats</button>
+      <button data-tab="top">Classement</button>
+    </nav>
+    <div class="tab" id="tab-play">
+      <div class="modes" id="modes"></div>
+      <p class="hint">Manches de 40 s sans reapparition. Le meme loadout pour tout le monde, il change toutes les 2 manches.
+        A la fin du temps, un drapeau apparait au centre : 3 s dessus pour gagner la manche. Premier a 6 manches.</p>
+      <p class="message" id="lobby-message"></p>
+    </div>
+    <div class="tab" id="tab-train" hidden>
+      <div class="levels" id="train-levels"></div>
+      <div class="choices">
+        <div><h3>Mode</h3><div class="chips" id="train-modes"></div></div>
+        <div><h3>Arene</h3><div class="chips" id="train-arenas"></div></div>
+      </div>
+      <h3>Loadout</h3>
+      <div class="chips" id="train-loadouts"></div>
+      <div class="actions">
+        <button class="primary" id="train-start">Lancer l'entrainement</button>
+        <button class="leave" id="train-stop" hidden>Arreter</button>
+      </div>
+      <p class="message" id="train-message"></p>
+    </div>
+    <div class="tab" id="tab-live" hidden><div id="live"></div></div>
+    <div class="tab" id="tab-me" hidden><div class="stats" id="me"></div></div>
+    <div class="tab" id="tab-top" hidden>
+      <table>
+        <thead><tr><th>#</th><th>Joueur</th><th>Elo</th><th>K/D</th><th>Victoires</th><th>Matchs</th></tr></thead>
+        <tbody id="top-rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

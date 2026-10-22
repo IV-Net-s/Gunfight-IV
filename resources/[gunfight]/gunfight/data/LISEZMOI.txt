@@ -1,0 +1,5 @@
+Donnees du gunfight, ecrites par le serveur :
+  stats.json   stats et Elo par compte Axora
+  arenas.json  arenes modifiees en jeu avec /gf_arena (passent avant config.lua)
+
+Ce dossier n'est pas envoye aux joueurs.

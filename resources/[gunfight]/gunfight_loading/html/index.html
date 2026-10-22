@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Chargement</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/__axora.js"></script>
+</head>
+<body>
+  <main>
+    <p class="kicker" id="server">axora</p>
+    <h1>GUNFIGHT</h1>
+    <p class="welcome">Pret, <span id="player">soldat</span> ?</p>
+    <div class="bar"><div class="fill"></div></div>
+    <p id="status">Chargement...</p>
+    <ul class="rules">
+      <li><b>40 s</b> par manche, pas de reapparition</li>
+      <li><b>Meme loadout</b> pour tous, change toutes les 2 manches</li>
+      <li><b>Drapeau</b> au centre en prolongation : 3 s pour gagner</li>
+      <li><b>6 manches</b> pour gagner le match</li>
+    </ul>
+    <p class="tip" id="tip"></p>
+  </main>
+  <script>
+    axora.on("loading", (info) => {
+      if (info.server) document.getElementById("server").textContent = info.server;
+      if (info.player) document.getElementById("player").textContent = info.player;
+      document.getElementById("status").textContent = info.status || "Chargement...";
+    });
+    const tips = [
+      "/gf ouvre le menu : files 1v1 a 4v4, matchs en cours, classement.",
+      "Tab pendant un match : tableau des scores.",
+      "Les headshots comptent dans tes stats. Vise la tete.",
+      "En prolongation, l'equipe avec le plus de sante gagne si personne ne prend le drapeau.",
+      "Ton Elo monte plus quand tu bats une equipe plus forte.",
+    ];
+    let index = Math.floor(Math.random() * tips.length);
+    const showTip = () => (document.getElementById("tip").textContent = tips[index++ % tips.length]);
+    showTip();
+    setInterval(showTip, 5000);
+  </script>
+</body>
+</html>
